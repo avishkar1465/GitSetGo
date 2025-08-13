@@ -8,7 +8,7 @@ const calculatorConfig = {
   // STEP 3: Students will change these settings differently, creating conflicts
   theme: "default", // "default" | "scientific" | "programmer" | "colorful"
   precision: 10, // Different students prefer different precision
-  showHistory: false, // STEP 3: Some students will want true
+  showHistory: true, // STEP 3: Some students will want true
   playSound: false, // STEP 3: Some students will want true
   buttonStyle: "rounded", // "rounded" | "square" | "circular"
 
@@ -130,45 +130,45 @@ export default function CalculatorApp() {
   }
 
   // STEP 3: Uncomment this function and the scientific buttons below
-  // const advancedOperation = (func: string) => {
-  //   const value = Number.parseFloat(display)
-  //   let result: number
+  const advancedOperation = (func: string) => {
+    const value = Number.parseFloat(display)
+    let result: number
 
-  //   switch (func) {
-  //     case "sqrt":
-  //       result = Math.sqrt(value)
-  //       break
-  //     case "square":
-  //       result = value * value
-  //       break
-  //     case "cube":
-  //       result = value * value * value
-  //       break
-  //     case "sin":
-  //       result = Math.sin((value * Math.PI) / 180) // Convert to radians
-  //       break
-  //     case "cos":
-  //       result = Math.cos((value * Math.PI) / 180)
-  //       break
-  //     case "tan":
-  //       result = Math.tan((value * Math.PI) / 180)
-  //       break
-  //     case "log":
-  //       result = Math.log10(value)
-  //       break
-  //     case "ln":
-  //       result = Math.log(value)
-  //       break
-  //     case "factorial":
-  //       result = value <= 1 ? 1 : Array.from({length: value}, (_, i) => i + 1).reduce((a, b) => a * b, 1)
-  //       break
-  //     default:
-  //       return
-  //   }
+    switch (func) {
+      case "sqrt":
+        result = Math.sqrt(value)
+        break
+      case "square":
+        result = value * value
+        break
+      case "cube":
+        result = value * value * value
+        break
+      case "sin":
+        result = Math.sin((value * Math.PI) / 180) // Convert to radians
+        break
+      case "cos":
+        result = Math.cos((value * Math.PI) / 180)
+        break
+      case "tan":
+        result = Math.tan((value * Math.PI) / 180)
+        break
+      case "log":
+        result = Math.log10(value)
+        break
+      case "ln":
+        result = Math.log(value)
+        break
+      case "factorial":
+        result = value <= 1 ? 1 : Array.from({length: value}, (_, i) => i + 1).reduce((a, b) => a * b, 1)
+        break
+      default:
+        return
+    }
 
-  //   setDisplay(String(result))
-  //   setWaitingForOperand(true)
-  // }
+    setDisplay(String(result))
+    setWaitingForOperand(true)
+  }
 
   // STEP 5: Memory functions - uncomment these
   // const memoryStore = (slot: number) => {
