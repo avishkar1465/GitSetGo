@@ -22,18 +22,18 @@ export const desktopConfig = {
     // favoriteApps: ["todo", "notes"], // Students will modify this array
   },
 
-  // wallpaper: {
-  //   type: "gradient", // 'solid' | 'gradient' | 'image'
-  //   primary: "#1e40af",
-  //   secondary: "#7c3aed",
-  //   // Students will customize these colors differently
-  //   customColors: [
-  //     "#ef4444", // red
-  //     "#f97316", // orange
-  //     "#eab308", // yellow
-  //     // Students add their favorite colors here
-  //   ],
-  // },
+  wallpaper: {
+    type: "gradient", // 'solid' | 'gradient' | 'image'
+    primary: "#1e40af",
+    secondary: "#7c3aed",
+    // Students will customize these colors differently
+    customColors: [
+      "#ef4444", // red
+      "#f97316", // orange
+      "#eab308", // yellow
+      // Students add their favorite colors here
+    ],
+  },
 
   apps: [
     {
