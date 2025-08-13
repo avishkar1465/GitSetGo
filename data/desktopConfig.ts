@@ -62,13 +62,13 @@ export const desktopConfig = {
       color: "bg-yellow-500",
       component: "NotesApp",
     },
-    // {
-    //   id: "gallery",
-    //   name: "Gallery",
-    //   icon: "🖼️",
-    //   color: "bg-purple-500",
-    //   component: "GalleryApp",
-    // },
+    {
+      id: "gallery",
+      name: "Gallery",
+      icon: "🖼️",
+      color: "bg-purple-500",
+      component: "GalleryApp",
+    },
     // {
     //   id: "calculator",
     //   name: "Calculator",
