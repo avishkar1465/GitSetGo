@@ -9,8 +9,8 @@ interface NotesAppProps {
 
 const welcomeNote = `# Welcome to MiniOS Notes! 📝
 
-**Student Name:** [ADD YOUR NAME HERE - STEP 2] 
-**Workshop Goal:** [WHAT DO YOU WANT TO LEARN? - STEP 2]
+**Student Name:** Avishkar Paradkar
+**Workshop Goal:** To learn the advanced functionalities of Git and GitHub
 **Favorite Git Command:** [YOUR FAVORITE COMMAND - STEP 2]
 **Team Role:** [FRONTEND/BACKEND/FULLSTACK - STEP 2]
 

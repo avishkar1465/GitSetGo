@@ -55,13 +55,13 @@ export const desktopConfig = {
       color: "bg-green-500",
       component: "TodoApp",
     },
-    // {
-    //   id: "notes",
-    //   name: "Notes",
-    //   icon: "📝",
-    //   color: "bg-yellow-500",
-    //   component: "NotesApp",
-    // },
+    {
+      id: "notes",
+      name: "Notes",
+      icon: "📝",
+      color: "bg-yellow-500",
+      component: "NotesApp",
+    },
     // {
     //   id: "gallery",
     //   name: "Gallery",
