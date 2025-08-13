@@ -69,13 +69,13 @@ export const desktopConfig = {
       color: "bg-purple-500",
       component: "GalleryApp",
     },
-    // {
-    //   id: "calculator",
-    //   name: "Calculator",
-    //   icon: "🧮",
-    //   color: "bg-orange-500",
-    //   component: "CalculatorApp",
-    // },
+    {
+      id: "calculator",
+      name: "Calculator",
+      icon: "🧮",
+      color: "bg-orange-500",
+      component: "CalculatorApp",
+    },
 
     // EXERCISE APPS - Students will uncomment these to create conflicts
     // {
