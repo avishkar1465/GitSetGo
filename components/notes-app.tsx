@@ -11,8 +11,8 @@ const welcomeNote = `# Welcome to MiniOS Notes! 📝
 
 **Student Name:** Avishkar Paradkar
 **Workshop Goal:** To learn the advanced functionalities of Git and GitHub
-**Favorite Git Command:** [YOUR FAVORITE COMMAND - STEP 2]
-**Team Role:** [FRONTEND/BACKEND/FULLSTACK - STEP 2]
+**Favorite Git Command:** git pull
+**Team Role:** Full stack developer
 
 ---
 
